@@ -40,5 +40,13 @@
     "/bindings/node/",
     "/binding.gyp",
     "/grammar.js"
+  ],
+  "tree-sitter": [
+    {
+      "scope": "source.yaml",
+      "file-types": [
+        "yml"
+      ]
+    }
   ]
 }
